@@ -23,16 +23,6 @@ public class IsAllDifferent {
         return true;
     }
 
-    static int test(int[] a){
-        int test = 0;
-
-        for(int i = 0; i < a.length; i++ ){
-            test ^= a[i];
-        }
-
-        return test;
-    }
-
     public static void main(String[] args){
         String str = "acde123456";
         System.out.println("str中所有的字符是全不同的吗  " + isAllDifferent(str));
