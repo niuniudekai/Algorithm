@@ -1,4 +1,4 @@
-package xw.QString;
+package xw.Array;
 
 /**
  * 判断字符串1重组后能否变成字符串2

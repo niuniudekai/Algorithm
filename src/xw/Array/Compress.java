@@ -1,8 +1,4 @@
-package xw.QString;
-
-import java.util.ArrayDeque;
-import java.util.LinkedList;
-import java.util.Queue;
+package xw.Array;
 
 /**
  * 压缩字符串 "aaabbccddaaa" -> "a3b2c2d2a3",如果字符串没有变短 则保持原样

@@ -1,4 +1,4 @@
-package xw.QString;
+package xw.Array;
 
 /**
  * 题目：不使用额外的数据结构，确定字符串中所有的字符是否全都不同

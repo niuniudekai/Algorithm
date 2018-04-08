@@ -1,8 +1,7 @@
-package xw.QString;
+package xw.Array;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 /**
  * 将字符数组中的空格 转换为%20,假设字符数组足够大，已知字符数组中非空字符的长度
