@@ -12,3 +12,6 @@ https://github.com/xbtshady/Algorithm/blob/master/src/xw/QString/SpaceReplace.ja
 * 压缩字符串 "aaabbccddaaa" -> "a3b2c2d2a3",如果字符串没有变短 则保持原样
 https://github.com/xbtshady/Algorithm/blob/master/src/xw/QString/Compress.java
 
+## 排序
+* 快排
+https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/quickSort.java

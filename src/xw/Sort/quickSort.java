@@ -21,7 +21,7 @@ public class quickSort {
         QSort(arr, low, i - 1);
         QSort(arr,i + 1, high);
     }
-    
+
     public static void main(String[] args) {
         int[] arr = {1,425,5,3423,45,5,23};
         QSort(arr,0,arr.length - 1);
