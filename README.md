@@ -1,7 +1,7 @@
 # Algorithm
 算法题
 下面将会是题目的描述和我自己的答案，main函数中是测试（每个类都可以单独直接运行）
-## 字符串相关
+## 数组
 * 不使用额外的数据结构，确定字符串中所有的字符是否全都不同
 https://github.com/xbtshady/Algorithm/blob/master/src/xw/QString/IsAllDifferent.java
 * 判断字符串1重组后能否变成字符串2
