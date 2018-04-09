@@ -15,7 +15,7 @@ public class Rotating {
 
             for(int i = 0; i < length; i++) {
 
-                int ex = arr[floor - 1][i];
+                int ex = arr[floor - 1][arr.length - i];
 
                 //左->上
                 arr[floor - 1][i] = arr[i][floor - 1];
@@ -26,11 +26,11 @@ public class Rotating {
 
 
                 //右->下
-                arr[arr.length - floor][i] = arr[length - i][arr.length - floor];
-//
-//
+                arr[arr.length - floor][i] = arr[arr.length - floor - i][arr.length - floor];
+
+
 //                //上->右
-//                arr[floor][arr.length - i] = ex;
+//                arr[arr.length - floor - i][arr.length - floor] = ex;
 
             }
             floor++;

@@ -3,7 +3,9 @@ package xw.Sort;
 public class quickSort {
 
     static void QSort(int[] arr,int low ,int high){
-        if(low >= high) return;
+        if(low >= high){
+            return;
+        }
         int i = low;
         int j = high;
         int key = arr[low];
