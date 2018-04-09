@@ -7,54 +7,40 @@ import java.util.Iterator;
  */
 public class Rotating {
     static int[][] rotating(int[][] arr){
-        int floor = 1;
-        while(floor < arr.length / 2){
+        for(int floor = 0; floor < arr.length / 2; floor++){
+            int first = floor;
+            int last = arr.length - 1 - floor;
+            for (int i = first; i < last; i++){
 
-            //当前层每行有多少元素
-            int length = arr.length - (floor - 1)*2;
+                int offset = i - first;
 
-            for(int i = 0; i < length; i++) {
+                //保存上
+                int top = arr[first][i];
 
-                int ex = arr[floor - 1][arr.length - i];
+                //左到上
+                arr[first][i] = arr[last - offset][first];
 
-                //左->上
-                arr[floor - 1][i] = arr[i][floor - 1];
+                //下到左
+                arr[last - offset][first] = arr[last][last - offset];
 
+                //右到下
+                arr[last][last - offset] = arr[i][last];
 
-                //下->左
-                arr[i][floor - 1] = arr[arr.length - floor][i];
-
-
-                //右->下
-                arr[arr.length - floor][i] = arr[arr.length - floor - i][arr.length - floor];
-
-
-//                //上->右
-//                arr[arr.length - floor - i][arr.length - floor] = ex;
-
+                //上到右
+                arr[i][last] = top;
             }
-            floor++;
         }
         return arr;
     }
     public static void main(String[] args){
         int[][] arr = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
-        for(int i = 0; i < arr.length; i++){
-            System.out.print("[");
-            for(int j = 0; j < arr.length; j++){
-                if(arr[i][j] < 10) {
-                    System.out.print(" " + arr[i][j] + ",");
-                }else {
-                    System.out.print(arr[i][j] + ",");
-                }
-            }
-            System.out.println("]");
-        }
-
-        System.out.println();
-
+        printInt(arr);
         arr = rotating(arr);
+        printInt(arr);
+    }
 
+    /**遍历二维数组*/
+    static void printInt(int[][] arr){
         for(int i = 0; i < arr.length; i++){
             System.out.print("[");
             for(int j = 0; j < arr.length; j++){
@@ -66,5 +52,6 @@ public class Rotating {
             }
             System.out.println("]");
         }
+        System.out.println();
     }
 }
