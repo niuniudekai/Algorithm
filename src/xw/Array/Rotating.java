@@ -39,7 +39,7 @@ public class Rotating {
         printInt(arr);
     }
 
-    /**遍历二维数组*/
+    /**遍历二维数组并输出*/
     static void printInt(int[][] arr){
         for(int i = 0; i < arr.length; i++){
             System.out.print("[");
