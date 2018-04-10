@@ -15,6 +15,7 @@
 <br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/Array/Rotating.java
 
 ## 排序相关
+* 冒泡排序 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/BubbleSort.java
 * 快排 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/quickSort.java
 
 ## 链表相关
