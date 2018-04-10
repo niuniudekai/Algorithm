@@ -1,6 +1,6 @@
 # Algorithm
 <br>算法题(来自网络)
-<br><br>下面是题目的描述和我自己的答案，main函数中是测试（每个类都可以单独直接运行）
+<br><br>下面是题目的描述和我自己的答案，main函数中是测试（我自己测试过都可以直接运行）
 ## 数组和字符串相关
 * 不使用额外的数据结构，确定字符串中所有的字符是否全都不同
 <br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/QString/IsAllDifferent.java
