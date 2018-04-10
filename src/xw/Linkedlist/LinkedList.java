@@ -40,6 +40,7 @@ public class LinkedList {
         }
 
     }
+
     /**遍历输出一个链表*/
     static void printList(LinkedList linkedList){
         Node start = linkedList.start;

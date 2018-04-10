@@ -59,7 +59,6 @@ public class deleteDups {
         }
 
         LinkedList.printList(linkedList);
-
         deleteDups1(linkedList.getStart());
         LinkedList.printList(linkedList);
 
@@ -72,6 +71,5 @@ public class deleteDups {
         LinkedList.printList(linkedList);
         deleteDups2(linkedList.getStart());
         LinkedList.printList(linkedList);
-
     }
 }
