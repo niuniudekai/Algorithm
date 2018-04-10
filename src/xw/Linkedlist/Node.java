@@ -4,8 +4,8 @@ package xw.Linkedlist;
  * 一个基本的单向链表
  */
 public class Node {
-    Node next = null;
-    int data;
+    private Node next = null;
+    private int data;
 
     public Node(int data){
         this.data = data;
@@ -38,4 +38,21 @@ public class Node {
         }
         return head;
     }
+
+    public Node getNext() {
+        return next;
+    }
+
+    public void setNext(Node next) {
+        this.next = next;
+    }
+
+    public int getData() {
+        return data;
+    }
+
+    public void setData(int data) {
+        this.data = data;
+    }
+
 }
