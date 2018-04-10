@@ -21,7 +21,7 @@
 * 单向链表 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Linkedlist/Node.java
 
 ## 栈相关
-* 使用链表实现的栈 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/quickSort.java
+* 使用链表实现的栈 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/stack/stack.java
 
 ## 队列相关
-* 使用链表实现的队列 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/quickSort.java
+* 使用链表实现的队列 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Queue/Queue.java
