@@ -29,4 +29,16 @@ public class stack {
     Object peek(){
         return top.getData();
     }
+
+
+    public static void main(String[] args){
+        stack stack = new stack();
+        for (int i = 0 ; i < 10; i++){
+            stack.push(i);
+        }
+
+        for (int i = 0; i < 10; i++){
+            System.out.print(stack.pop() + ", ");
+        }
+    }
 }
