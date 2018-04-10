@@ -23,10 +23,10 @@
 * 删除链表中重复的元素，以及不使用额外的缓冲空间，该怎么解决？<br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Linkedlist/deleteDups.java
 
 ## 栈相关
-* 使用链表实现的栈 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/stack/stack.java
+* 使用链表结点实现的栈 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/stack/stack.java
 
 ## 队列相关
-* 使用链表实现的队列 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Queue/Queue.java
+* 使用链表结点实现的队列 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Queue/Queue.java
 
 ## 二叉树相关
 * 二叉树结点 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/TreeNode.java
