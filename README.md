@@ -13,7 +13,8 @@
 <br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/QString/Compress.java
 * 给定一幅有N*N矩阵表示的图像，其中每个像素的大小为4字节，编写一个方法，将图像旋转90度。不占用额外的存储空间能否做到？
 <br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/Array/Rotating.java
-
+* 一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/Array/findfrom2dArray.java
 ## 排序相关
 * 冒泡排序 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/BubbleSort.java
 * 鸡尾酒排序 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/CocktailSort.java
