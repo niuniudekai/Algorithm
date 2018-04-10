@@ -25,3 +25,7 @@
 
 ## 队列相关
 * 使用链表实现的队列 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Queue/Queue.java
+
+## 二叉树相关
+* 二叉树结点 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/TreeNode.java
+* 使用链表实现的二叉树 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/BinaryTree.java
