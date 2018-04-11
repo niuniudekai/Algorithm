@@ -10,9 +10,22 @@ public class LinkedList {
         this.start = new Node(data);
     }
 
+    public LinkedList(Node start){
+        this.start = start;
+    }
+
+    public LinkedList(){
+    }
+
     /**增加一个结点在尾部*/
     void add(int d){
         Node end = new Node(d);
+
+        if(this.start == null){
+            this.start = end;
+            return;
+        }
+
         Node n = this.start;
         while (n.getNext() != null){
             n = n.getNext();

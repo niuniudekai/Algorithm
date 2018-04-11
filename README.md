@@ -27,7 +27,7 @@
 * 单向链表 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Linkedlist/LinkedList.java
 * 删除链表中重复的元素，以及不使用额外的缓冲空间，该怎么解决？<br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Linkedlist/deleteDups.java
 * 找到链表的倒数第K个节点 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Linkedlist/find.java
-
+* 给出一个基准x，把所有比x小的结点排在比x大或等于的后面 
 
 ## 栈相关
 * 使用链表结点实现的栈 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/stack/stack.java
