@@ -3,14 +3,14 @@
 <br><br>下面是题目的描述和我自己的答案，main函数中是测试（我自己测试过都可以直接运行）
 ## 数组和字符串相关
 * 不使用额外的数据结构，确定字符串中所有的字符是否全都不同
-<br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/QString/IsAllDifferent.java
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/Array/IsAllDifferent.java
 * 判断字符串1重组后能否变成字符串2
-<br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/QString/CheckSame.java
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/Array/CheckSame.java
 * 将字符数组中的空格 转换为%20,假设字符数组足够大，已知字符数组中非空字符的长度
 假设字符数组拥有这三个字符{'1','2','3'}，也就是说 这个非空字符的长度为3，但它的长度不止3
-<br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/QString/SpaceReplace.java
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/Array/SpaceReplace.java
 * 压缩字符串，例如"aaabbccddaaa" -> "a3b2c2d2a3",如果字符串没有变短 则保持原样
-<br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/QString/Compress.java
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/Array/Compress.java
 * 给定一幅有N*N矩阵表示的图像，其中每个像素的大小为4字节，编写一个方法，将图像旋转90度。不占用额外的存储空间能否做到？
 <br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/Array/Rotating.java
 * 一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
