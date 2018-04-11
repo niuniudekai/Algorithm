@@ -19,8 +19,9 @@
 * 冒泡排序 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/BubbleSort.java
 * 鸡尾酒排序 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/CocktailSort.java
 * 快排 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/quickSort.java
+* 插入排序 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/InsertionSort.java
 * 选择排序 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/SelectionSort.java
-
+* 归并排序 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Sort/MergeSort.java
 ## 链表相关
 * 单向链表的结点 <br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/Linkedlist/Node.java
 * 单向链表 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Linkedlist/LinkedList.java
