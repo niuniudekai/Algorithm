@@ -36,7 +36,7 @@ public class BinaryTree {
             return 0;
         }
 
-        if(root.left == null && root.right == null){
+        if(root.getRight() == null && root.getLeft() == null){
             return 1;
         }else{
             int leftDeep = getNodeDeep(root.getLeft());

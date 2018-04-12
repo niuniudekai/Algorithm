@@ -4,9 +4,9 @@ package xw.BinaryTree;
  * 二叉树的结点
  */
 public class TreeNode {
-    int data;
-    TreeNode left;
-    TreeNode right;
+    private int data;
+    private TreeNode left;
+    private  TreeNode right;
 
     public TreeNode(){}
 
@@ -29,6 +29,10 @@ public class TreeNode {
     public void setLeft(TreeNode left) {
         this.left = left;
     }
+    public void setLeft(int data) {
+        TreeNode left = new TreeNode(data);
+        this.setLeft(left);
+    }
 
     public TreeNode getRight() {
         return right;
@@ -36,5 +40,10 @@ public class TreeNode {
 
     public void setRight(TreeNode right) {
         this.right = right;
+    }
+
+    public void setRight(int data) {
+        TreeNode right = new TreeNode(data);
+        this.setRight(right);
     }
 }
