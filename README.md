@@ -38,3 +38,4 @@
 ## 二叉树相关
 * 二叉树结点 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/TreeNode.java
 * 使用链表实现的二叉树 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/BinaryTree.java
+* 遍历二叉树 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/TraversalBinaryTree.java
