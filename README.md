@@ -46,4 +46,4 @@
 * 输入二叉树的前序遍历序列和中序遍历序列，重建一个二叉树 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/ReBuild.java
 
 ##查找相关
-* 二分查找
+* 二分查找 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Search/BinarySearch.java
