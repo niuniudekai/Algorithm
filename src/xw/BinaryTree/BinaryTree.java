@@ -17,6 +17,11 @@ public class BinaryTree {
         this.root = new TreeNode(data);
     }
 
+    /**以指定根结点创建 */
+    public BinaryTree(TreeNode root){
+        this.root = root;
+    }
+
     /**判断二叉树是否为空  */
     public boolean isEmpty(){
         return root == null;
