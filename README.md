@@ -45,5 +45,5 @@
 * 给出一棵二叉树，返回其节点值的锯齿形层次遍历（先从左往右，下一层再从右往左，层与层之间交替进行）<br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/zigzagLevelOrder.java
 * 输入二叉树的前序遍历序列和中序遍历序列，重建一个二叉树 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/ReBuild.java
 
-##查找相关
+## 查找相关
 * 二分查找 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Search/BinarySearch.java
