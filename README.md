@@ -42,3 +42,4 @@
 * 使用链表实现的二叉树 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/BinaryTree.java
 * 遍历二叉树 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/TraversalBinaryTree.java
 * 给出一棵二叉树，返回其节点值的锯齿形层次遍历（先从左往右，下一层再从右往左，层与层之间交替进行）<br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/zigzagLevelOrder.java
+* 输入二叉树的前序遍历序列和中序遍历序列，重建一个二叉树 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/BinaryTree/ReBuild.java
