@@ -47,3 +47,4 @@
 
 ## 查找相关
 * 二分查找 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Search/BinarySearch.java
+* 找到旋转数组中最小的数 <br> https://github.com/xbtshady/Algorithm/blob/master/src/xw/Search/MinRotateArray.java
