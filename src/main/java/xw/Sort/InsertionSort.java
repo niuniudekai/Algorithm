@@ -16,14 +16,11 @@ public class InsertionSort {
         {
             int get = arr[i];
             int j = i - 1;
-            while (j >= 0)
+            while (j >= 0 && ((order == 1) ? (arr[j] > get):(arr[j] < get)))
             {
-                if((order == 1) ? (arr[j] > get):(arr[j] < get)){
-                    arr[j + 1] = arr[j];
-                    j--;
-                }else {
-                    break;
-                }
+                 arr[j + 1] = arr[j];
+                 j--;
+
             }
             arr[j + 1] = get;
         }
