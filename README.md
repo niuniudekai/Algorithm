@@ -1,6 +1,21 @@
 # Algorithm
 <br>算法题(来自网络)
 <br><br>下面是题目的描述和我自己的答案，main函数中是测试（我自己测试过都可以直接运行）
+
+## leetcode
+* 1	两数之和 
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/main/java/xw/LeetCode/Leet1.java	
+* 2	两数相加 
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/main/java/xw/LeetCode/Leet2.java	
+* 3	无重复字符的最长子串 
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/main/java/xw/LeetCode/Leet3.java
+* 4	寻找两个有序数组的中位数
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/main/java/xw/LeetCode/Leet4.java  			
+* 5	最长回文子串	
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/main/java/xw/LeetCode/Leet5.java
+* 6	Z 字形变换
+<br>https://github.com/xbtshady/Algorithm/blob/master/src/main/java/xw/LeetCode/Leet6.java
+
 ## 数组和字符串相关
 * 不使用额外的数据结构，确定字符串中所有的字符是否全都不同
 <br>https://github.com/xbtshady/Algorithm/blob/master/src/xw/Array/IsAllDifferent.java
