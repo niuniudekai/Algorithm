@@ -1,8 +1,5 @@
 package xw.LeetCode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Leet2 {
         public static class ListNode {
             int val;
